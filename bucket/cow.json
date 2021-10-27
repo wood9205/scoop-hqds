@@ -1,0 +1,38 @@
+{
+    "homepage": "https://github.com/cyfdecyf/cow",
+    "version": "0.98",
+    "license": "BSD-2-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cyfdecyf/cow/releases/download/0.9.8/cow-win64-0.9.8.zip",
+            "hash": "sha1:6022def05456eb71a4fe3c775f46871d6afb1c85"
+        },
+        "32bit": {
+            "url": "https://github.com/cyfdecyf/cow/releases/download/0.9.8/cow-win32-0.9.8.zip",
+            "hash": "sha1:e4dee67a7879ad9967c969b9819e79f087baf341"
+        }
+    },
+    "shortcuts": [
+        [
+            "cow.exe",
+            "cow"
+        ]
+    ],
+    "persist": [
+        "rc.txt",
+        "stat.json",
+        "blocked.txt",
+        "direct.txt"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cyfdecyf/cow/releases/download/$version/cow-win64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/cyfdecyf/cow/releases/download/$version/cow-win32-$version.zip"
+            }
+        }
+    }
+}
