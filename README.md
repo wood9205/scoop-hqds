@@ -1,4 +1,4 @@
-# Scoop hqds Bucket ![Manifest Count](https://img.shields.io/badge/manifests-19-brightgreen?style=flat) [![Build status](https://img.shields.io/appveyor/ci/wood9205/scoop-hqds/master?style=flat&logo=appveyor)](https://ci.appveyor.com/project/wood9205/scoop-hqds)
+# Scoop hqds Bucket !
 
 `scoop bucket add hqds 'https://github.com/wood9205/scoop-hqds.git'`
 
