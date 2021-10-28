@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/slackhq/nebula",
+    "version": "1.4.0",
+    "license": "MIT License",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/slackhq/nebula/releases/download/v1.4.0/nebula-windows-amd64.zip",
+            "hash": "sha1:4c1285fb0e2e12a08a53f481be4b0c670cbe8cbc"
+        }
+    },
+    "shortcuts": [
+        [
+            "nebula.exe",
+            "nebula"
+        ]
+    ],
+    "persist": [
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/slackhq/nebula/releases/download/v$version/nebula-windows-amd64.zip"
+            }
+        }
+    }
+}
