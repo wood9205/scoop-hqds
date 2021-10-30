@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/wood9205/unzip",
+    "version": "2.22",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "hhttps://github.com/wood9205/unzip/files/7447117/UZip2.22.zip",
+            "hash": "sha1:1469d7e5e51fbf7c8b08b28ed78e03971c81ece8"
+        }
+    },
+    "shortcuts": [
+        [
+            "UZIP2.exe",
+            "UZIP"
+        ]
+    ],
+    "persist": [
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wood9205/unzip/files/7447117/UZip$version.zip"
+            }
+        }
+    }
+}
