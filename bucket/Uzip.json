@@ -4,7 +4,7 @@
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wood9205/unzip/files/7447117/UZip2.22.zip",
+            "url": "https://github.com/wood9205/unzip/releases/download/v2.22/UZip2.22.zip",
             "hash": "sha1:1469d7e5e51fbf7c8b08b28ed78e03971c81ece8"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wood9205/unzip/files/7447117/UZip$version.zip"
+                "url": "https://github.com/wood9205/unzip/releases/download/v$version/UZip$version.zip"
             }
         }
     }
