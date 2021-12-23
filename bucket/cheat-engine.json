@@ -6,8 +6,8 @@
         "identifier": "Freeware",
         "url": "https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576"
     },
-    "url": "https://github.com/cheat-engine/cheat-engine/releases/download/7.2/CheatEngine72.exe",
-    "hash": "3c1ead7f3d812e2a3cf09c382ecc71212f5c86ce6a2da7f4c7033925241ad53d",
+    "url": "https://d1tvmj3dyb0q0v.cloudfront.net/installer/328167655218644/94322678",
+    "hash": "9b8480581ffd010c93c4504d0bb5dcd8c2eba5c57812e399da8c6c58024a4903",
     "innosetup": true,
     "architecture": {
         "64bit": {
