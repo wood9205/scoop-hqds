@@ -4,10 +4,10 @@
     "url": "https://github.com/BetterWorld-Liuser/XiaoChao/releases/download/22.1.8/22.1.8.zip",
     "hash": "sha1:bae152df3bd87cac9dd3c193a597ff236759198c",
     "extract_to":"xiaochao",
-    "bin":"小抄.exe",
+    "bin":"$version/小抄.exe",
     "shortcuts": [
         [
-            "小抄.exe",
+            "$version/小抄.exe",
             "小抄"
         ]
     ],
