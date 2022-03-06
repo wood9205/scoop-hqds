@@ -14,13 +14,13 @@
     },
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\stat.txt\")) {",
-        "    Set-Content \"$dir\\stat.txt\" '{}' -Encoding 'UTF8'",
+        "    Set-Content \"$dir\\stat.txt\" '{}' -Encoding 'Ascii'",
         "}",
         "if (!(Test-Path \"$persist_dir\\blocked.txt\")) {",
-        "    Set-Content \"$dir\\blocked.txt\" '{}' -Encoding 'UTF8'",
+        "    Set-Content \"$dir\\blocked.txt\" '{}' -Encoding 'Ascii'",
         "}",
         "if (!(Test-Path \"$persist_dir\\direct.txt\")) {",
-        "    Set-Content \"$dir\\direct.txt\" '{}' -Encoding 'UTF8'",
+        "    Set-Content \"$dir\\direct.txt\" '{}' -Encoding 'Ascii'",
         "}"        
     ],
     "shortcuts": [
