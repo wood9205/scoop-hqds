@@ -30,7 +30,10 @@
         ]
     ],
     "persist": [
-        "rc.txt"
+        "rc.txt",
+        "stat.txt",
+        "blocked.txt",
+        "direct.txt"
     ],
     "checkver": "github",
     "autoupdate": {
