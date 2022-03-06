@@ -12,6 +12,17 @@
             "hash": "sha1:e4dee67a7879ad9967c969b9819e79f087baf341"
         }
     },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\stat.txt\")) {",
+        "    Set-Content \"$dir\\stat.txt\" '{}' -Encoding 'utf-8'",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\blocked.txt\")) {",
+        "    Set-Content \"$dir\\blocked.txt\" '{}' -Encoding 'utf-8'",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\direct.txt\")) {",
+        "    Set-Content \"$dir\\direct.txt\" '{}' -Encoding 'utf-8'",
+        "}"        
+    ],
     "shortcuts": [
         [
             "cow.exe",
