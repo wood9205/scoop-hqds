@@ -19,10 +19,7 @@
         ]
     ],
     "persist": [
-        "rc.txt",
-        "stat.json",
-        "blocked.txt",
-        "direct.txt"
+        "rc.txt"
     ],
     "checkver": "github",
     "autoupdate": {
