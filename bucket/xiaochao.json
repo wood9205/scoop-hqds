@@ -1,11 +1,19 @@
 {
     "homepage": "https://github.com/BetterWorld-Liuser/XiaoChao",
+    "description": "cheat table for win",
     "version": "22.1.8",
     "url": "https://github.com/BetterWorld-Liuser/XiaoChao/releases/download/22.1.8/22.1.8.zip",
     "hash": "sha1:bae152df3bd87cac9dd3c193a597ff236759198c",
-    "extract_dir": "\\$version",
-    "checkver": "github",
+    "installer": {
+        "script": [
+            "if (Test-Path \"$dir\\$version\\data\") {",
+            "   Move-Item \"$dir\\$version\\*\" \"$dir\"",
+            "   Remove-Item \"$dir\\$version\"",
+            "}"
+        ]
+    },
     "persist": "local",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/BetterWorld-Liuser/XiaoChao/releases/download/$version/$version.zip"
     }

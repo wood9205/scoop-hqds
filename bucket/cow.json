@@ -1,5 +1,6 @@
 {
     "homepage": "https://github.com/cyfdecyf/cow",
+    "description": "auto proxy",
     "version": "0.98",
     "license": "BSD-2-Clause",
     "architecture": {
